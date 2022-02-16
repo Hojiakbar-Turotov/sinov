@@ -1,5 +1,5 @@
 // 1-ish malumotlar ba'zasidan savollarni olib kelish va ekranga random qilib chiqarish
-const url = `http://localhost:3000/level-0`;
+const url = `http://localhost:3000/level-0` || `https://sinov.vercel.app/level-0.json`;
 let db = {};
 
 fetch(url)
